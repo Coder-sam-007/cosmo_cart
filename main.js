@@ -49,7 +49,7 @@ function randomQuote() {
     quoteBtn.innerText = "Loading Quote...";
     fetch("https://free-quotes-api.herokuapp.com/").then(response => response.json()).then(result => {
         quoteText.innerText = result.quote;
-        authorName.innerText = result.author || "No Author";
+        authorName.innerText = result.author || "someone";
         quoteBtn.classList.remove("loading");
         quoteBtn.innerText = "New Quote";
     });

@@ -565,7 +565,7 @@ ul .speech.active {
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    color: #ddd;
+    color: #fff;
     font-size: 0.6rem;
 }
 
@@ -717,7 +717,7 @@ ul .speech.active {
 
 @media screen and (max-width: 360px) {
     #hero {
-        height: 110vh;
+        height: 100vh;
     }
     .hero_text h2 {
         font-size: 3rem;
